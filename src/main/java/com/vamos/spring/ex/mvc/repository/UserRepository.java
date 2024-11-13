@@ -13,7 +13,7 @@ public interface UserRepository {
 			,@Param("email") String email
 			,@Param("introduce") String introduce);
 	
-	
-	
 	public User selectLastUser();
+	
+	public int insertUserByObject(User user);
 }
